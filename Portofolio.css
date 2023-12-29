@@ -18,8 +18,23 @@ nav{
     justify-content: space-between;
     border-bottom: 10px solid #eaeaee;
 }
+header > nav{
+    padding: 20px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #ffffff;
+    background-color: white ;
+}
+.nav-logo > img{
+    width: 5;
+}
+.nav-logo > a{
+    text-decoration: none;
+    color: black;
+    font-size: 30px;
+}
 
-/*set h1 to large font*/
 nav div:nth-child(1) h1{
     font-size: 34px;
     font-weight: 900;
@@ -36,6 +51,17 @@ nav div:nth-child(2) a{
 
 nav div:nth-child(2) a:hover{
     opacity: 0,5;
+}
+.btn-blue{
+    color: #3BBEC4;
+    text-decoration: none;
+    font-size: 20px;
+    display: inline-block;
+    padding: 15px 25px;
+    border: 1px solid #3BBEC4;
+    margin-top: 10px;
+    transition: all .3s ease;
+    border-radius: 10px;
 }
 #top-section{
     min-height: 100vh;
@@ -67,7 +93,6 @@ nav div:nth-child(2) a:hover{
 }
 
 .Image-wrapper{
-    /* padding: 20px; */
     justify-content: center;
     display: flex;
     justify-content: end;
