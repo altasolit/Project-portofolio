@@ -65,6 +65,7 @@ nav div:nth-child(2) a:hover{
     align-items: center;
     justify-content: space-between;
     padding: 0 50px;
+    background-color: transparent;
 }
 
 #top-section > div:nth-child(1){
