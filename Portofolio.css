@@ -63,8 +63,8 @@ nav div:nth-child(2) a:hover{
     min-height: 100vh;
     display: flex;
     align-items: center;
-    justify-content: space-between  ;
-    padding: 0 50px;   
+    justify-content: space-between;
+    padding: 0 50px;
 }
 
 #top-section > div:nth-child(1){
@@ -88,14 +88,24 @@ nav div:nth-child(2) a:hover{
     font-size: 42px;
 }
 
+#top-section > .Image-wrapper > img {
+    height: 200px;
+    margin-left: 5px;
+    margin-right: 30px;
+    margin-top: 20px;
+    border-radius: 50%;
+    border: 1px solid #ffffff;
+}
 .Image-wrapper{
     justify-content: center;
     display: flex;
     justify-content: end;
+    margin-bottom: 5%;
+    margin-left: 15px;
 }
 
 .Image-wrapper > img{
-    width: 50%;
+    width: 200px;
 }
 
 #work{
@@ -272,10 +282,6 @@ nav div:nth-child(2) a:hover{
 .testimoni-col h3{
     margin-top: 15px;
     text-align: left;
-}
- 
-.testimoni-col .fas, .testimoni-col .far{
-    color: #f44336;
 }
 
 .contact{
