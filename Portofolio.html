@@ -1,139 +1,148 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="Portofolio.css">
-    <link rel="shorcut icon" href="./google.jpg">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
 </head>
+
 <body>
-    <header>
-        <nav>
-            <div class="nav-logo">
-                <h1>Yovel Andreas</h1>
-            </div>
-            <div class="btn-blue">
-                <a href="#">My cv</a>
-            </div>
-        </nav>
-    </header>
-    <main>
-        <section id="top-section">
-            <div>
-                <p>Hi,i'm 👋</p>
-                <h1>Yovel Andreas</h1>
-                <p class="text-about-me">Saya adalah seorang pelajar di SMKN 1 NEPER</p>
-            </div>
-            <div class="Image-wrapper">
-                <img id="image-total" src="./crop.png" alt="Profil image">
-            </div>
-        </section>
-        <section id="work">
-            <div class="work-call">
-                <div class="work-image">
-                    <img src="./phonk.jpg" alt="work image">
-                </div>
-                <div class="work-body">
-                    <h5>Judul</h5>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam deserunt nihil omnis enim, itaque quos reprehenderit maxime facilis consequuntur totam praesentium inventore soluta et incidunt aliquam natus odio assumenda asperiores.</p>
-                </div>
-            </div>
-            <div class="work-call">
-                <div class="work-image">
-                    <img src="./phonk.jpg" alt="work image">
-                </div>
-                <div class="work-body">
-                    <h5>Judul</h5>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam deserunt nihil omnis enim, itaque quos reprehenderit maxime facilis consequuntur totam praesentium inventore soluta et incidunt aliquam natus odio assumenda asperiores.</p>
-                </div>
-            </div>
-            <div class="work-call">
-                <div class="work-image">
-                    <img src="./phonk.jpg" alt="work image">
-                </div>
-                <div class="work-body">
-                    <h5>Judul</h5>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam deserunt nihil omnis enim, itaque quos reprehenderit maxime facilis consequuntur totam praesentium inventore soluta et incidunt aliquam natus odio assumenda asperiores.</p>
-                </div>
-            </div>
-        </section>
-    </main>
+    <script src="portofolio.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <div class="resume-wrapper">
+        <section class="profile section-padding">
+            <div class="container">
+                <div class="picture-resume-wrapper">
+                    <div class="picture-resume">
+                        <span><img src="crop.png" alt="" /></span>
+                        <svg version="1.1" viewBox="0 0 350 350">
 
-    <!-- Service -->
-    <div class="services">
-        <div class="services-text ">
-            <p>Services</p>
-            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
-        </div>
-                 
-        <div class="box-container">
-            <div class="box-1">
-            <span>1</span>
-                <p class="heading">Technical Writing</p>
-                <p class="details">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
-            <button>Read More</button>
+                            <defs>
+                                <filter id="goo">
+                                    <feGaussianBlur in="SourceGraphic" stdDeviation="8" result="blur" />
+                                    <feColorMatrix in="blur" mode="matrix"
+                                        values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 21 -9" result="cm" />
+                                </filter>
+                            </defs>
+                        </svg>
+                    </div>
+                    <div class="clearfix"></div>
+                </div>
+                <div class="name-wrapper">
+                    <h1>Yovel <br />Andreas</h1>
+                </div>
+                <div class="clearfix"></div>
+                <div class="contact-info clearfix">
+                    <ul class="list-titles">
+                        <li>Call</li>
+                        <li>Mail</li>
+                        <li>Web</li>
+                        <li>Home</li>
+                    </ul>
+                    <ul class="list-content ">
+                        <li>+62-857-2404-7274</li>
+                        <li>andreasyovel@gmail.com</li>
+                        <li><a href="#">Portofolio.html</a></li>
+                        <li>Cirebon, INDONESIA</li>
+                    </ul>
+                </div>
+                <div class="contact-presentation">
+                    <p><span class="bold">Lorem</span> ipsum dolor sit amet, consectetur adipiscing elit. Vivamus
+                        euismod congue nisi, nec consequat quam. In consectetur faucibus turpis eget laoreet. Sed nec
+                        imperdiet purus. </p>
+                </div>
+                <div class="contact-social clearfix">
+                    <ul class="list-titles">
+                        <li>Instgram</li>
+                        <li>Discord</li>
+                        <li>Github</li>
+                    </ul>
+                    <ul class="list-content">
+                        <li><a href="">@y2vel</a></li>
+                        <li><a href="">#</a></li>
+                        <li><a href="">#</a></li>
+                    </ul>
+                </div>
             </div>
-            <div class="box-2">
-                <span>2</span>
-                <p class="heading">Web Design</p>
-                <p class="details">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
-                <button>Read More</button>
+        </section>
+
+        <section class="experience section-padding">
+            <div class="container">
+                <h3 class="experience-title">Experience</h3>
+
+                <div class="experience-wrapper">
+                    <div class="company-wrapper clearfix">
+                        <div class="experience-title">Company name</div>
+                        <div class="time">Nov 2012 - Present</div>
+                    </div>
+
+                    <div class="job-wrapper clearfix">
+                        <div class="experience-title">Front End Developer </div>
+                        <div class="company-description">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce a elit facilisis,
+                                adipiscing leo in, dignissim magna.</p> 
+                        </div>
+                    </div>
+
+                    <div class="company-wrapper clearfix">
+                        <div class="experience-title">Company name</div>
+                        <div class="time">Nov 2010 - Present</div>
+                    </div>
+
+                    <div class="job-wrapper clearfix">
+                        <div class="experience-title">Freelance, Web Designer / Web Developer</div>
+                        <div class="company-description">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce a elit facilisis,
+                                adipiscing leo in, dignissim magna.</p> 
+                        </div>
+                    </div>
+
+                    <div class="company-wrapper clearfix">
+                        <div class="experience-title">Company name</div>
+                        <div class="time">Nov 2009 - Nov 2010</div>
+                    </div>
+
+                    <div class="job-wrapper clearfix">
+                        <div class="experience-title">Web Designer </div>
+                        <div class="company-description">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce a elit facilisis,
+                                adipiscing leo in, dignissim magna.</p> <!-- JOB DESCRIPTION  -->
+                        </div>
+                    </div>
+
+                </div><!--Skill experience-->
+
+                <div class="section-wrapper clearfix">
+                    <h3 class="section-title">Skills</h3>
+                    <ul>
+                        <li class="skill-percentage">HTML / HTML5</li>
+                        <li class="skill-percentage">CSS </li>
+                        <li class="skill-percentage">Javascript</li>
+                        <li class="skill-percentage">Jquery</li>
+                        <li class="skill-percentage">Microsoft Office</li>
+                        <li class="skill-percentage">CorelDRAW</li>
+
+                    </ul>
+
+                </div>
+
+                <div class="section-wrapper clearfix">
+                    <h3 class="section-title">Hobbies</h3>
+                    <p>Hobi saya adalah bermain game dan membaca novel, dikesaharian saya sendiri menghabiskan waktu 
+                        saya dengan membaca komik & novel.
+                    </p>
+
+                    <p>Selain itu saya juga gemar mendengar lagu karena dapat membuat say tenang diaktivitas-aktivitas 
+                        keseharian saya.</p>
+                </div>
+
             </div>
-            <div class="box-3">
-                <span>3</span>
-                <p class="heading">Web Development</p>
-                <p class="details">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
-                <button>Read More</button>
-            </div>
-        </div>
+        </section>
+
+        <div class="clearfix"></div>
     </div>
-
-     <!-- Testimoni -->
-    <div class="testimoni">
-        <div class="testimoni-text ">
-            <p>About Me</p>
-        </div>        
-         
-        <div class="testimoni-col">
-            <div class="testimoni-1">
-                <img src="crop.png">
-            <div>
-                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
-            </div>
-        </div>
-         
-        <div class="testimoni-2">
-            <img src="phonk.jpg">
-                <div>
-                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
-                </div>
-        </div>
-        </div>
-    </div> 
-        
-    <!-- Contact -->
-    <div class="contact">
-        <div class="contact-text">
-            <p>Contact</p>
-        </div>
-        <div>
-            <p>You can contact me with whatsapp and instagram </p>
-        </div>
-     </div>
-
-            <!-- Footer -->
-            <footer>
-                <div class="social-icons">
-                    <a href="#"><i class="bi bi-whatsapp"></i></a>
-                    <a href="#"><i class="bi bi-facebook"></i></a>
-                    <a href="#"><i class="bi bi-twitter"></i></a>
-                    <a href="#"><i class="bi bi-instagram"></i></a>
-                    <a href="#"><i class="bi bi-youtube"></i></a>
-                </div>
-                    <p class="copyright">Copyright by Yovel Andreas</p>
-            </footer>
-
 </body>
+
 </html>
