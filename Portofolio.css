@@ -58,7 +58,7 @@ a {
 
 .name-wrapper {
     float: left;
-    width: 60%;
+    width: 45%;
 }
 
 h1 {
@@ -68,7 +68,7 @@ h1 {
     color: #4a4e51;
     text-transform: uppercase;
     line-height: 1em;
-    padding-top: 40px;
+    padding-top: 60px;
 }
 
 li {
@@ -76,14 +76,14 @@ li {
 }
 
 .picture-resume-wrapper {
-    width: 40%;
+    width: 55%;
     display: block;
     float: left;
 }
 
 .picture-resume {
-    width: 140px;
-    height: 220px;
+    width: 180px;
+    height: 260px;
     background-size: cover;
     border-radius: 50%;
     margin-right: 0px;
@@ -106,8 +106,43 @@ li {
     }
 }
 
+.background {
+    background-color: white;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.circle {
+    background-color: #fffdff;
+    height: 200px;
+    border-radius: 50%;
+    width: 200px;
+    margin: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.circle3 {
+    background-color: #66cc99;
+    height: 100px;
+    border-radius: 50%;
+    width: 100px;
+    margin: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 50px;
+    animation: pulse2 3s linear infinite;
+}
+
 .contact-info {
-    margin-top: 100px;
+    margin-top: 40px;
     font-weight: 300;
 }
 
@@ -129,9 +164,9 @@ li {
 .contact-presentation {
     text-align: left;
     font-weight: 300;
-    margin-top: 100px;
-    margin-bottom: 100px;
-
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-left: 20px;
 }
 
 svg {
@@ -186,7 +221,6 @@ svg {
     .experience-title {
         color: white;
         margin-bottom: 15px;
-        ;
     }
 }
 
@@ -277,7 +311,7 @@ svg {
     }
 
     to {
-        width: 80%;
+        width: 90%;
     }
 }
 
@@ -287,7 +321,7 @@ svg {
     }
 
     to {
-        width: 90%;
+        width: 70%;
     }
 }
 
@@ -307,7 +341,7 @@ svg {
     }
 
     to {
-        width: 60%;
+        width: 20%;
     }
 }
 
@@ -317,7 +351,7 @@ svg {
     }
 
     to {
-        width: 70%;
+        width: 85%;
     }
 }
 
@@ -327,6 +361,12 @@ svg {
     }
 
     to {
-        width: 70%;
+        width: 60%;
     }
 }
+
+@keyframes pulse2{
+    0%{width:150px;height:150px;}
+    50%{width:200px;height:200px;}
+    100%{width:150px;height:150px;}
+  }
